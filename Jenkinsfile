@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Checking out code from GitHub...'
 		checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/htasoftware99/smart_manufacturing_machines_efficiency_prediction_gitops.git']])
-    }
+                  }
         }        
         stage('Build Docker Image') {
             steps {
