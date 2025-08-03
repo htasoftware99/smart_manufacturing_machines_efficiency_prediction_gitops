@@ -2,3 +2,5 @@ logs
 smart_manufacturing_machines_efficiency_prediction.egg-info
 src/__pycache__
 venv
+kubectl
+kubectl.sha256
